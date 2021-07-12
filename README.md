@@ -1,1 +1,4 @@
 # Sentiment-Analysis-With-Natural-Language-Processing
+
+Projenin amacı tek katmanlı basit bir evrişimsel sinir ağı kullanarak farklı kaynaklardan elde edilen verilerin sistem içerisinde duygu kümelenmelerinin yapılıp kullanıcıya giriş verisinin içerdiği duyguyu iletmesidir.Makine öğrenmesi yöntemine dayalıdır.Gensim kütüphanesine bağlı doc2vec kullanılarak gerçekleştirilmiştir.
+ Projede test ve eğitim olmak üzere 2 farklı veri kümesi kullanılmaktadır.Projede kullanılan veri seti Cornell üniversitesinin İngilizce IMDB film yorumları verilerinden alınmıştır. Veri setleri; test-neg.txt: 12500 olumsuz film yorumları içeren test verisi , test-pos.txt: 12500 olumlu film yorumları içeren test verisi , train-neg.txt: 12500 olumsuz film yorumları içeren eğitim verisi , train-pos.txt: 12500 olumlu film yorumları içeren eğitim verisi , train-unsup.txt: 50000 etiketsiz film yorumları verisidir.
